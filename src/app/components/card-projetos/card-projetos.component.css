@@ -1,0 +1,56 @@
+.projetos{
+    text-decoration: none;
+    background-color: #c8bcac;
+    height: auto;
+    width: 600px;
+    display: flex;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.container__foto-grande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #afa496;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.container__foto-grande img{
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.container__foto-pequena{
+    margin-top: 10px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.container__foto-pequena img{
+    height: 100%;
+    width: 100%;
+}
+
+.descricao{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #afa496;
+    text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.descricao h1{
+    font-size: 20px;
+    text-wrap: wrap;
+}

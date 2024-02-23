@@ -1,0 +1,52 @@
+.container__curso{
+    background-color: antiquewhite;
+    padding: 20px 20px;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titulos .ensino{
+    text-align: center;
+}
+
+.titulos h1{
+    font-size: 30px;
+}
+
+.titulos span{
+  color: rgb(119, 55, 13);  
+}
+
+.titulos h3{
+    margin-bottom: 10px;
+}
+
+.container__conteudo h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container__conteudo p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container__conteudo li{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+@media(max-width:920px){
+    .container__curso{
+        width: 80vw;
+    }
+}

@@ -1,0 +1,23 @@
+.container__historia{
+    background-color:antiquewhite;
+    
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.historia h1 {
+    margin-bottom: 25px;
+}
+
+.historia p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.historia img{
+    margin-top: 25px;
+    height: 120px;
+    border-radius: 100%;
+}

@@ -1,0 +1,19 @@
+<div class="container__curso">
+    <div class="curso">
+        <div class="titulos">
+            <h1><span>{{ensino}}:</span> {{nome}}</h1>
+            <h3>Duração: {{duracao}}</h3>
+        </div>
+        <div class="container__conteudo">
+            <h3>conteúdo</h3>
+            <ul>
+                <li
+                    *ngFor="let arr of aprendizado"
+                >
+                {{arr}}
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</div>

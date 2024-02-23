@@ -1,0 +1,87 @@
+.container__sobre-mim{
+   background-color: antiquewhite;
+    padding: 30px;
+    height: 80%;
+    width: 80vw;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.sobre-mim{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+  
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 50%;
+    font-size: 25px;
+ 
+}
+
+.descricao h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.descricao p{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.redes{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.redes li{
+    list-style: none;
+}
+
+.redes a{
+    background-color: #e1d3c1;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container__foto{
+    width: 300px;
+    height: 300px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../../../assets/imgs/borda.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    background-position-x: -1px;
+    
+}
+
+.img{
+ 
+    background-image: url(../../../assets/imgs/kelwincavalheiro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+}
