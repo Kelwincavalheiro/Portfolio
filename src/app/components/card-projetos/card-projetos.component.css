@@ -54,3 +54,30 @@
     font-size: 20px;
     text-wrap: wrap;
 }
+
+@media(max-width:650px){
+
+    .projetos{
+        text-decoration: none;
+        background-color: #c8bcac;
+        height: auto;
+        width: 400px;
+        padding: 0px;
+    }
+
+    .container__foto-grande{
+        height: 200px;
+        width: 200px;
+    }
+
+    .container__foto-pequena{
+        height: 50px;
+        width: 50px;
+    }
+
+    .descricao{
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 17px;
+    }
+}
